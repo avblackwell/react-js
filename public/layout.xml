@@ -1,0 +1,22 @@
+<layout>
+  <header>
+    <title>Sample Header</title>
+  </header>
+  <navbar>
+    <item>Home</item>
+    <item>About</item>
+    <item>Contact</item>
+  </navbar>
+  <main>
+    <content>
+      <section>
+        <title>Section 1</title>
+        <paragraph>This is the first section.</paragraph>
+      </section>
+      <section>
+        <title>Section 2</title>
+        <paragraph>This is the second section.</paragraph>
+      </section>
+    </content>
+  </main>
+</layout>

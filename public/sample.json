@@ -1,0 +1,17 @@
+{
+  "components": [
+    {
+      "type": "div",
+      "props": {
+        "children": "Hello, World!"
+      }
+    },
+    {
+      "type": "button",
+      "props": {
+        "children": "Click Me",
+        "onClick": "handleClick"
+      }
+    }
+  ]
+}
