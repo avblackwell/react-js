@@ -35,7 +35,7 @@ const JSONReader = ({jsonFile}) => {
 
   return (
     <div>
-      {error ? error : (components ? renderComponents(components) : 'Loading...')}
+      {error ? <div>{error}</div> : (components ? renderComponents(components) : <div>Loading...</div>)}
     </div>
   );
 };
